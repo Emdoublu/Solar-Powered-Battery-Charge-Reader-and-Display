@@ -8,7 +8,7 @@
 LiquidCrystal_I2C lcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 
 // Settings of battery
-const unsigned int BATTERY_CAPACITY = 2500; // 2000mAh battery
+const unsigned int BATTERY_CAPACITY = 2000; // 2000mAh battery
 
 // Global variables
 unsigned int full_capacity;
